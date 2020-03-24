@@ -1,0 +1,39 @@
+extends layout
+
+block content
+  //- script(src="./javascripts/jquery.js")
+  //- script(src="./javascripts/funciones.js")
+  //- h1= title
+  //- div
+  //-   h2 Estudiantes
+  //-   input(type="button",value="Mostrar", id="btn")
+  //-   ul
+  //-     li Luis
+  //-       a(href="#") Agregar
+  h1= title
+  table(border="1")
+    tr
+      td
+        h2
+          a(href="#") Inicio
+    tr
+      td
+        h2 
+          a(href="http://localhost:3001/RegistroEs/") Registro de estudiante
+    tr
+      td
+        h2 
+          a(href="http://localhost:3001/Buscar/") Buscar estudiante
+    tr
+      td
+        h2 
+          a(href="") Eliminar estudiante
+    tr
+      td
+        h2 
+          a(href="") Actualizar estudiante
+    tr
+      td
+        h2 
+          a(href="") Otra opción
+

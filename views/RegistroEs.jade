@@ -1,0 +1,44 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h2 Formulario de Registro Estudiante
+    form(action="")
+      label Dato 1  &nbsp &nbsp &nbsp
+      input(type="text")
+      br
+      label Dato 2 &nbsp &nbsp &nbsp
+      input(type="text")
+      br
+      label Dato 3 &nbsp &nbsp &nbsp
+      select(name="datos3", size="1")
+        option(value="Opción 1") Opción 1
+        option(value="Opción 2") Opción 2
+        option(value="Opción 3") Opción 3
+      br
+      label Dato 4
+      table(border="1")
+        tr
+          td
+            input(type="radio", name="r")
+            label &nbsp &nbsp Opción 1
+            br
+            input(type="radio", name="r")
+            label &nbsp &nbsp Opción 2
+            br
+            input(type="radio", name="r")
+            label &nbsp &nbsp Opción 3
+      br
+      label Datos 5 &nbsp &nbsp &nbsp
+      input(type="text")
+      br
+      br
+      br
+      label Dato 6 &nbsp &nbsp &nbsp
+      textarea(name="", cols="30", rows="5")
+      br
+      br
+      button(type="submit") Enviar
+      input(type="button", value="Cancelar")
